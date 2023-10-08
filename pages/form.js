@@ -1,7 +1,7 @@
 const Form = () =>  {
     console.error(`dd`);
     return <div>
-        <form action="mailto:recipient@example.com" method="get" enctype="text/plain">
+        <form action="mailto:recipient@example.com" method="get" enctype="text/plain" target="_top">
         Subject:<br/>
     <input type="text" name="subject" placeholder="Your Name/"/><br/>
     Email:<br/>
